@@ -23,7 +23,7 @@ import Details from "./ServiceHistory/Details";
 
 const ViewDetailsComponent = () => {
   const [breakDown, setBreakDown] = useState(true);
-  const [active, setActive] = useState("1");
+  const [active, setActive] = useState("2");
   const toggle = (tab) => {
     if (active !== tab) {
       setActive(tab);
